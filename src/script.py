@@ -1,6 +1,6 @@
 import pandas as pd
-import pandas_config
-import dicionario
+import src.pandas_config
+import src.dicionario as dicionario
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns

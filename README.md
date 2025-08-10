@@ -1,10 +1,10 @@
-## Boas Vindas ⭐
+## ⭐ Boas Vindas 
 
 Bem-vindo(a) ao meu projeto de análise de dados usando Python.
  
 Este é um projeto que acompanha as aulas da Imersão de Dados com Python da Alura. Durante o desenvolvimento, tomei a liberdade de criar coisas novas ou modificar algumas partes do código para deixar da forma que mais fizesse sentido para mim.
 
-## Configuração do Ambiente ⚙️
+## ⚙️ Configuração do Ambiente 
 
 Este projeto usa Python e depende de algumas bibliotecas como o `pandas`. 
 
@@ -31,7 +31,7 @@ Antes de rodar, certifique-se de:
 
 Após a configuração, basta executar os scripts Python normalmente.
 
-## Notas Importantes
+## 📌 Notas Importantes
 - No arquivo python "script.py" estão a grande maioria dos códigos produzidos. Para melhor visualização, os métodos e trechos de códigos foram agrupados em funções, e a chamada desses métodos estão comentadas após a função. Para rodar o trecho desejado, basta retirar o símbolo de comentário "#" que está a frente do print que chama a função desejada.
 
-Obrigado por visitar o projeto! 💕
+💕 Obrigado por visitar o projeto! 💕
