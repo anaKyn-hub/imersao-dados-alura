@@ -141,7 +141,7 @@ def graph_est():
     plt.ylabel("Salário em USD")
     plt.show()
 
-#print(graph_dados())
+#print(graph_est())
 #-------------------------------------------------------------
 #Função que reune a criação dos gráficos interativos
 def graph_int():
@@ -164,6 +164,17 @@ def graph_int():
     fig.update_traces(textinfo='percent+label')
     fig.show()
 
-    #Criar um grafico de salário por pais dos cientistas de dados
+#print(graph_int())
+#-------------------------------------------------------------
+#Desafio
+#Criar um grafico de salário por pais dos cientistas de dados
+df_cience = df_limpo[df_limpo['job_title'] == 'Data Scientist']
+ordemc = df_cience.groupby('company_location')['salary_in_usd'].mean().sort_values(ascending=True).index 
 
-print(graph_int())
+plt.figure(figsize=(15,5))
+sns.barplot(data=df_cience, x='company_location', y='salary_in_usd', palette='Set2', order=ordemc)
+plt.title('Salário de Cientistas de Dados por Localização da Empresa')
+plt.xlabel("Localização da Empresa")
+plt.ylabel("Salário médio anual em USD")
+plt.show()
+#-------------------------------------------------------------
