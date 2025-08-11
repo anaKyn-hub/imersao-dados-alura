@@ -33,5 +33,6 @@ Após a configuração, basta executar os scripts Python normalmente.
 
 ## 📌 Notas Importantes
 - No arquivo python "script.py" estão a grande maioria dos códigos produzidos. Para melhor visualização, os métodos e trechos de códigos foram agrupados em funções, e a chamada desses métodos estão comentadas após a função. Para rodar o trecho desejado, basta retirar o símbolo de comentário "#" que está a frente do print que chama a função desejada.
+- Para executar o arquivo "dashboard.py", basta rodar o comando "streamlit run src\dashboard.py" sem as aspas que o dashboard deverá abrir no seu navegador. Para parar de rodar o arquivo na IDE, use o comando ctrl + c.
 
 💕 Obrigado por visitar o projeto! 💕
